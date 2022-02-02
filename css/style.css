@@ -1,0 +1,76 @@
+/******************************************************************************
+*   # Reset margins and padding and use border-box for every element
+*
+******************************************************************************/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.app {
+    display: flex;
+    position: relative;
+}
+
+
+
+
+
+/******************************************************************************
+*   # Navigation style
+*
+******************************************************************************/
+
+
+
+.navigation {
+    padding: 16px;
+    width: 256px;
+    height: 100%;
+    border-right: 1px solid gray;
+    
+    position: fixed;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu-item {
+    padding-block-start: 32px;
+}
+
+.menu-link {
+    padding-inline-end: 16px;
+    color: black;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-link-active {
+    color : gray;
+}
+
+
+
+
+
+/******************************************************************************
+*   # Sections style
+*
+******************************************************************************/
+
+.main-content {
+    padding-inline-start: 256px;
+}
+
+.main-section {
+    padding: 64px;
+    color: black;
+}
+
+
